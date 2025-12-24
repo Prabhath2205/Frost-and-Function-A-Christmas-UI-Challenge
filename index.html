@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Magic of Frost & Function ❄️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Lato:wght@300;400&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-theme="frost">
+    <canvas id="magic-canvas"></canvas>
+    <div class="vignette"></div>
+    <div class="noise-overlay"></div>
+    <main class="story-container">
+        <section class="chapter hero" id="chapter-1">
+            <div class="content reveal">
+                <p class="pre-title">Welcome to</p>
+                <h1 class="glow-text">Frost & Function</h1>
+                <p class="subtitle">A journey through the magic of christmas.</p>
+                <div class="scroll-prompt">
+                    <span>Begin the Journey</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="chapter interactive-split" id="chapter-2">
+            <div class="text-col reveal">
+                <h2>The Atmosphere</h2>
+                <p>
+                    Winter is a duality. It is the biting cold of the north wind, and the crackling warmth of the
+                    hearth.
+                    <br><br>
+                    You have the power to shift the elements.
+                    Will you embrace the <strong>Frost</strong>, or seek the <strong>Warmth</strong>?
+                </p>
+            </div>
+            <div class="interaction-col reveal delay-1">
+                <div class="glass-orb-container">
+                    <div class="atmosphere-switch">
+                        <input type="checkbox" id="atmosphere-toggle">
+                        <label for="atmosphere-toggle" class="switch-track">
+                            <div class="switch-handle">
+                                <i class="fa-regular fa-snowflake icon-cold"></i>
+                                <i class="fa-solid fa-fire icon-warm"></i>
+                            </div>
+                        </label>
+                    </div>
+                    <p class="state-label" id="state-label">Current State: Frost</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="chapter center-stage" id="chapter-3">
+            <div class="content reveal">
+                <h2>The Gift of Design</h2>
+                <p>Inside every pixel lies a story waiting to be unfolded.</p>
+                <div class="gift-scene">
+                    <div class="gift-card-wrapper">
+                        <div class="gift-card front">
+                            <div class="ribbon-vertical"></div>
+                            <div class="ribbon-horizontal"></div>
+                            <div class="card-text">For You</div>
+                            <i class="fa-solid fa-gift card-icon"></i>
+                        </div>
+                        <div class="gift-card back">
+                            <h3>Magic Found! ✨</h3>
+                            <p>As lights glow and hearts come closer, may this Christmas
+                                bring
+                                peace, hope, and happiness to all .</p>
+                            <div class="signature">- Rasal Musthafa</div>
+                        </div>
+                    </div>
+                    <p class="instruction-text">(Hover to Open)</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="chapter finale" id="chapter-4">
+            <div class="content reveal">
+                <h2>Spread the Light</h2>
+                <p>The night is dark, but together we can fill it with wonder.</p>
+                <button id="lantern-btn" class="magic-btn">
+                    <span class="btn-text">Release Lanterns</span>
+                    <span class="btn-glow"></span>
+                </button>
+            </div>
+        </section>
+
+        <footer>
+            <p>Created by <a href="https://github.com/rasal" target="_blank" style="color: white;">Rasal Musthafa</a>
+                with 💖
+            </p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
